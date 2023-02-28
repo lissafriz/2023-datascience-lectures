@@ -1,115 +1,115 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
     
-    <title>Class Schedules</title>
-    <meta charset="utf-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-          rel="stylesheet"/>
-    <link rel="stylesheet" href="/uofu/stu/ClassSchedules/css/main.css"/>
-    <link rel="stylesheet" href="/uofu/stu/ClassSchedules/css/addins.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw.css"
-          integrity="sha256-RKWkj+/VPTTBpmJvgbTZhLSjgt7/i5qqwdo6uULEVT4="
-          crossorigin="anonymous" />
-    <link rel="icon" href="/uofu/stu/ClassSchedules/images/favicon.ico" type="image/png"/>
-    <link crossorigin="anonymous"
-          href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-          rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-          rel="stylesheet"/>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <script crossorigin="anonymous"
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script
-            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-            crossorigin="anonymous"></script>
-    <script crossorigin="anonymous"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script crossorigin="anonymous"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw.jquery.js"
-            integrity="sha256-qHxZMNbjFuNl2oF62psx7AbJQHq4oEXXw4DLk3ehJrg="
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw-init.js"
-            integrity="sha256-joTU9SuZXYDU3Jusrd8y9btQigslF8FKO69YRTzqVhY="
-            crossorigin="anonymous"></script>
-    <script src="https://ssl.google-analytics.com/analytics.js" async id="UA-58881890-50" ></script>
-    <script src="/uofu/stu/ClassSchedules/scripts/elevator.min.js"></script>
-    <script src="/uofu/stu/ClassSchedules/scripts/addins.js"></script>
+    <title>Class Schedules</title>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="/uofu/stu/ClassSchedules/css/main.css"/>
+    <link rel="stylesheet" href="/uofu/stu/ClassSchedules/css/addins.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw.css"
+          integrity="sha256-RKWkj+/VPTTBpmJvgbTZhLSjgt7/i5qqwdo6uULEVT4="
+          crossorigin="anonymous" />
+    <link rel="icon" href="/uofu/stu/ClassSchedules/images/favicon.ico" type="image/png"/>
+    <link crossorigin="anonymous"
+          href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+          rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script crossorigin="anonymous"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw.jquery.js"
+            integrity="sha256-qHxZMNbjFuNl2oF62psx7AbJQHq4oEXXw4DLk3ehJrg="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesaw/3.1.2/tablesaw-init.js"
+            integrity="sha256-joTU9SuZXYDU3Jusrd8y9btQigslF8FKO69YRTzqVhY="
+            crossorigin="anonymous"></script>
+    <script src="https://ssl.google-analytics.com/analytics.js" async id="UA-58881890-50" ></script>
+    <script src="/uofu/stu/ClassSchedules/scripts/elevator.min.js"></script>
+    <script src="/uofu/stu/ClassSchedules/scripts/addins.js"></script>
     <script src="/uofu/stu/ClassSchedules/scripts/jquery.validate.min.js"></script>
     
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
-</head>
-
-<body class="d-flex flex-column bg-light">
-<!--*** START OF HEADER ***-->
-<header class="bg-primary pt-3 pb-2 px-4 px-sm-5" role="banner">
-    <div class="container-fluid ">
-        <a href="#uu-skip-target" class="skip sr-only sr-only-focusable bg-white">Skip to Main Content</a>
-        <div class="row">
-            <div class="col-xs-2 align-self-center">
-                <a href="//utah.edu" target="_blank">
-                    <img alt="The University of Utah" class="logo" src="//templates.utah.edu/apps/v1/_images/logo/ulogo.png"/>
-                </a>
-            </div>
-            <div class="col-xs-10 align-self-center">
-                <h1 class="logo-text display-3 text-white p-1 mb-0">University of Utah</h1>
-            </div>
-        </div>
-    </div>
-</header>
-<!--*** END OF HEADER ***-->
-
-<!--*** START OF NAVIGATION ***-->
-<nav class="bg-secondary py-0 px-4 px-sm-5 navbar navbar-expand-lg navbar-dark" role="navigation">
-    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-            class="navbar-toggler border-0" data-target="#navbarSupportedContent" data-toggle="collapse"
-            type="button">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto text-nowrap">
-            <!-- Use nav-iem--left-align only for the first button -->
-            <li class="nav-item nav-item--left-align"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item dropdown">
-                <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Terms
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1236/index.html">Summer 2023</a><a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1234/index.html">Spring 2023</a><a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1228/index.html">Fall 2022</a>
-                </div>
-            </li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/register/schedule-builder.php">Schedule Builder</a></li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/handbook/">Student Handbook</a></li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="//catalog.utah.edu/">General Catalog</a></li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/academic-calendars/spring2023.php">Academic Calendar</a></li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.bookstore.utah.edu/UTAH/SelectTermDept.aspx">Find Textbooks</a></li>
-            <li class="nav-item"><a class="nav-link" target="_blank" href="https://ctle.utah.edu/scf/reports/student">View Course Feedback</a></li>
-        </ul>
-    </div>
-
-    <ul class="navbar-nav text-light">
-        <li class="nav-item dropdown">
-            
-        </li>
-    </ul>
-</nav>
-<!--*** END OF NAVIGATION ***-->
-
-<div class="container-fluid mb-auto mt-0 mx-0 p-0">
-    <div class="row">
-        <div class="col">
-            <div class="container-fluid px-2 px-sm-4 px-md-5 mt-2">
-                <div class="row align-items-center">
-                    <div class="col-lg-8">
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+</head>
+
+<body class="d-flex flex-column bg-light">
+<!--*** START OF HEADER ***-->
+<header class="bg-primary pt-3 pb-2 px-4 px-sm-5" role="banner">
+    <div class="container-fluid ">
+        <a href="#uu-skip-target" class="skip sr-only sr-only-focusable bg-white">Skip to Main Content</a>
+        <div class="row">
+            <div class="col-xs-2 align-self-center">
+                <a href="//utah.edu" target="_blank">
+                    <img alt="The University of Utah" class="logo" src="//templates.utah.edu/apps/v1/_images/logo/ulogo.png"/>
+                </a>
+            </div>
+            <div class="col-xs-10 align-self-center">
+                <h1 class="logo-text display-3 text-white p-1 mb-0">University of Utah</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!--*** END OF HEADER ***-->
+
+<!--*** START OF NAVIGATION ***-->
+<nav class="bg-secondary py-0 px-4 px-sm-5 navbar navbar-expand-lg navbar-dark" role="navigation">
+    <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            class="navbar-toggler border-0" data-target="#navbarSupportedContent" data-toggle="collapse"
+            type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto text-nowrap">
+            <!-- Use nav-iem--left-align only for the first button -->
+            <li class="nav-item nav-item--left-align"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+                <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Terms
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1236/index.html">Summer 2023</a><a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1234/index.html">Spring 2023</a><a class="dropdown-item" href="/uofu/stu/ClassSchedules/main/1228/index.html">Fall 2022</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/register/schedule-builder.php">Schedule Builder</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/handbook/">Student Handbook</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="//catalog.utah.edu/">General Catalog</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="//registrar.utah.edu/academic-calendars/spring2023.php">Academic Calendar</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.bookstore.utah.edu/UTAH/SelectTermDept.aspx">Find Textbooks</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://ctle.utah.edu/scf/reports/student">View Course Feedback</a></li>
+        </ul>
+    </div>
+
+    <ul class="navbar-nav text-light">
+        <li class="nav-item dropdown">
+            
+        </li>
+    </ul>
+</nav>
+<!--*** END OF NAVIGATION ***-->
+
+<div class="container-fluid mb-auto mt-0 mx-0 p-0">
+    <div class="row">
+        <div class="col">
+            <div class="container-fluid px-2 px-sm-4 px-md-5 mt-2">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
                         <section>
     <h1>
         <b><span>Main Campus</span></b>
@@ -121,21 +121,21 @@
         
     </h2>
 
-</section>
-                    </div>
-                    <div class="col-lg-3 offset-lg-1">
-                        <div class="subject-info">
-                            <section/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-            <!--*** CONTENT *** -->
-            
-
+</section>
+                    </div>
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="subject-info">
+                            <section/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!--*** CONTENT *** -->
+            
+
             <section class="container-fluid px-2 px-sm-4 px-md-5 flex-grow-1">
     <div class="row">
         <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
@@ -3405,42 +3405,42 @@
             </main>
         </div>
     </div>
-</section>
-            <!--*** END OF CONTENT ***-->
-
-            <a href="#back-to-top" id="back-to-top" title="Back to top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
-        </div>
-    </div>
-</div>
-<!--*** START OF FOOTER ***-->
-<footer class="bg-secondary mt-5 pb-5 d-flex flex-column">
-    <div class="container-fluid px-4 px-sm-5 py-4">
-        <div class="row">
-            <div class="col-sm-6 col-md-4 small text-light">
-                <p>
-                    University Support Services<br/>
-                    102 S 200 E, Ste. 100<br/>
-                    Salt Lake City, UT 84111
-                </p>
-                <p><a class="text-light" href="http://www.utah.edu">&copy; The University of Utah</a></p>
-            </div>
-
-            <div class="col-sm-6 col-md-4 small">
-                <p>
-                    <a class="text-light" href="http://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a><br/>
-                    <a class="text-light" href="http://www.utah.edu/disclaimer/">Disclaimer</a><br/>
-                    <a class="text-light" href="http://www.utah.edu/privacy/">Privacy</a><br/>
-                </p>
-            </div>
-
-            <div class="col-sm-12 col-md-4">
-                <a href="https://imagineu.utah.edu/" target="_blank">
-                    <img alt="The University of Utah - Imagine U" class="footer-logo" src="/uofu/stu/ClassSchedules/images/imagine_u.png"/>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
-<!--*** END OF FOOTER ***-->
-</body>
+</section>
+            <!--*** END OF CONTENT ***-->
+
+            <a href="#back-to-top" id="back-to-top" title="Back to top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </div>
+</div>
+<!--*** START OF FOOTER ***-->
+<footer class="bg-secondary mt-5 pb-5 d-flex flex-column">
+    <div class="container-fluid px-4 px-sm-5 py-4">
+        <div class="row">
+            <div class="col-sm-6 col-md-4 small text-light">
+                <p>
+                    University Support Services<br/>
+                    102 S 200 E, Ste. 100<br/>
+                    Salt Lake City, UT 84111
+                </p>
+                <p><a class="text-light" href="http://www.utah.edu">&copy; The University of Utah</a></p>
+            </div>
+
+            <div class="col-sm-6 col-md-4 small">
+                <p>
+                    <a class="text-light" href="http://www.utah.edu/nondiscrimination/">Nondiscrimination &amp; Accessibility</a><br/>
+                    <a class="text-light" href="http://www.utah.edu/disclaimer/">Disclaimer</a><br/>
+                    <a class="text-light" href="http://www.utah.edu/privacy/">Privacy</a><br/>
+                </p>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <a href="https://imagineu.utah.edu/" target="_blank">
+                    <img alt="The University of Utah - Imagine U" class="footer-logo" src="/uofu/stu/ClassSchedules/images/imagine_u.png"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--*** END OF FOOTER ***-->
+</body>
 </html>
